@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo">
+            <div class="header-text">
+                <h1>I am on the way to <br>
+                    make our beautiful html and css project</h1>
+                <span class="square"></span>
+                <p>Simply put, a project is a series of tasks that need to be completed to reach a specific
+                    outcome. A project can also be defined as a set of inputs and outputs required to achieve
+                    a particular goal. Projects can range from simple to complex and can be managed by one
+                    person or a hundred.</p>
+                <button class="common-btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">OFFER</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menubtn">
+
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var side = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0px";
+            }
+            else {
+                sideNav.style.right = "-250px";
+            }
+        }
+
+    </script>
+
+    <!-- about us -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png" alt="about">
+        </div>
+        <div class="about-right-col">
+            <div class="about-us-text">
+                <h1>About Us</h1>
+                <p>We will help you experience life of Neplease in its true sense. From living among the
+                    locals to eating authentic cuisine we promise you that you will head back home with amazing
+                    moments and wonderful memories.</p><br>
+                <h3>We will help you experience life of Neplease in its true sense. From living among the
+                    locals to eating</h3><br>
+                <h4>----Darshan Chhetri</h4>
+            </div>
+        </div>
+    </section>
+
+    <!---features-->
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png">
+                <h4>Learn Anywhere</h4>
+                <p>Independent of platfom you can learn from mobile, computer and so on</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-2.png">
+                <h4>Expert Teacher</h4>
+                <p>learn form industry expert who are pasonate about teaching and have great experience</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-3.png">
+                <h4>Learn Anywhere</h4>
+                <p>Independent of platfom you can learn from mobile, computer and so on</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <button class="common-btn">Get Free Trial</button>
+        </div>
+    </section>
+
+    <!---courses-->
+    <section id="courses">
+        <div class="course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse Our Top <br> Course</h1>
+                    <br>
+                    <p>We will help you experience life of Neplease in its true sense. From living among the locals to
+                        eating authentic cuisine we promise you that you will head back home with amazing
+                        moments and wonderful memories.</p>
+                    <button class="common-btn"> View All</button>
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="images/course.png" alt="courses">
+            </div>
+        </div>
+    </section>
+
+    <!---offers-->
+    <section id="offer">
+        <div class="offer-left-col">
+            <img src="images/offer.png" alt="offers what we provide">
+        </div>
+        <div class="offer-right-col">
+            <div class="offer-text">
+                <h1>What We <br>Have To Offer</h1>
+                <br>
+                <p>We will help you experience life of Neplease in its true sense. From living among the
+                    locals to eating authentic cuisine we promise you that you will head back home with amazing
+                    moments and wonderful memories.</p><br>
+                <button class="common-btn">Let's Start</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section>
+        <div class="contact">
+            <div class="contact-left-col">
+                <h1>Sign Up To <br> Our Community</h1>
+                <form>
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email ">
+                    <input type="password" placeholder="Enter Your Password">
+                    <div class="btn-box">
+                        <button class="common-btn">Sign Up</button>
+                        <button class="common-btn">Let's Start</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-right-col">
+                <img src="images/contact.png" alt="contact image">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
